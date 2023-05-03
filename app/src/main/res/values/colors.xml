@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black_marlin">#FF412F1D</color>
+    <color name="harvest_gold">#FFE0B372</color>
+    <color name="tallow">#FFA7A98B</color>
+    <color name="suva_gray">#FF8B898A</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>
