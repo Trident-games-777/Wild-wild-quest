@@ -3,4 +3,10 @@
     <string name="you_loose">You Loose!</string>
     <string name="you_win">You Win!</string>
     <string name="new_game">New Game</string>
+    <string name="img1">ima</string>
+    <string name="img2">ge</string>
+    <string name="img3">/*</string>
+    <string name="rules">Rules</string>
+    <string name="rules_txt">The objective of the game is to eliminate as many bricks as possible by using a single ball and either the walls or the paddle to knock the ball into the bricks. Players lose a turn if the ball is not hit by the paddle upon rebound. Bricks of different colors are worth varying point values. Once the ball hits the upper wall, the paddle will shrink to half of its original size. Additionally, the speed of the ball will increase at predetermined intervals, specifically after four and twelve hits.</string>
+    <string name="back">Back</string>
 </resources>

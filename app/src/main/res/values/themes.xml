@@ -8,6 +8,14 @@
         <item name="colorSecondaryVariant">@color/tallow</item>
         <item name="colorOnSecondary">@color/black</item>
 
-        <item name="android:statusBarColor">@color/black</item>
+        <item name="android:statusBarColor">@color/licorice</item>
     </style>
+
+    <style name="Theme.WildWildSplash" parent="Theme.SplashScreen">
+        <item name="android:statusBarColor">@color/licorice</item>
+        <item name="windowSplashScreenBackground">@color/licorice</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/quest</item>
+        <item name="postSplashScreenTheme">@style/Theme.WildWildQuest</item>
+    </style>
+
 </resources>
