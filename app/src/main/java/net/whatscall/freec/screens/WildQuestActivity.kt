@@ -40,8 +40,8 @@ class WildQuestActivity : BaseWildActivity(), SplashScreen.KeepOnScreenCondition
             setContentView(binding.root)
             keepCondition = false
             lifecycleScope.launch(Dispatchers.IO) {
-//                view = HorizonView.inflate(this@WildQuestActivity, binding.wildRoot)
-//                view.setListener(this@WildQuestActivity)
+                view = HorizonView.inflate(this@WildQuestActivity, binding.wildRoot)
+                view.setListener(this@WildQuestActivity)
             }
         } else {
             shouldHit = true
