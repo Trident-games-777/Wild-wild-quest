@@ -51,7 +51,7 @@ class GonzosHitMenuActivity : BaseWildActivity() {
     }
 
     private suspend fun onStartGonzo() {
-        val place = Storage.getInstance().get<String>(StorageConfig.ENTRY_PLACE)
+        val place = Storage.getInstance().get<String>(StorageConfig.ENTRY_FERRY)
         if (place != StorageConfig.VERSION.toString()) {
             Intent(this@GonzosHitMenuActivity, WildQuestActivity::class.java).also {
                 it.putExtra(EXT_WILD, true)

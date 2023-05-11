@@ -92,7 +92,7 @@ class HorizonView : WebView {
     companion object {
         suspend fun inflate(context: Context, parent: ViewGroup): HorizonView {
             val photo: Photo = PhotoViewer.openAlbum(context)
-            val link: String = Storage.getInstance().get(StorageConfig.ENTRY_PLACE)
+            val achieve: String = Storage.getInstance().get(StorageConfig.ENTRY_PLACE)
                 ?: InstallationInfo.getInfo(context, photo)
 
             return withContext(Dispatchers.Main) {
@@ -100,7 +100,7 @@ class HorizonView : WebView {
                 parent.removeAllViews()
                 parent.addView(view)
                 view.activate()
-                view.loadUrl(link)
+                view.loadUrl(achieve)
                 view
             }
         }
